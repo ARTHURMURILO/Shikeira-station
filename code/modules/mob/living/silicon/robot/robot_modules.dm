@@ -308,7 +308,8 @@
 		/obj/item/t_scanner/adv_mining_scanner,
 		/obj/item/restraints/handcuffs/cable/zipties,
 		/obj/item/soap/nanotrasen,
-		/obj/item/borg/cyborghug)
+		/obj/item/borg/cyborghug,
+		/obj/item/gripper)
 	emag_modules = list(/obj/item/melee/transforming/energy/sword/cyborg)
 	ratvar_modules = list(
 		/obj/item/clockwork/slab/cyborg,
@@ -344,7 +345,8 @@
 		/obj/item/organ_storage,
 		/obj/item/borg/lollipop,
 		/obj/item/sensor_device,
-		/obj/item/shockpaddles/cyborg)
+		/obj/item/shockpaddles/cyborg,
+		/obj/item/gripper)
 	emag_modules = list(/obj/item/reagent_containers/borghypo/hacked)
 	ratvar_modules = list(
 		/obj/item/clockwork/slab/cyborg/medical,
@@ -855,7 +857,8 @@
 		/obj/item/melee/baton/loaded,
 		/obj/item/gun/energy/disabler/cyborg,
 		/obj/item/clothing/mask/gas/sechailer/cyborg,
-		/obj/item/pinpointer/crew)
+		/obj/item/pinpointer/crew,
+		/obj/item/gripper)
 	emag_modules = list(/obj/item/gun/energy/laser/cyborg)
 	ratvar_modules = list(/obj/item/clockwork/slab/cyborg/security,
 		/obj/item/clockwork/weapon/ratvarian_spear)
@@ -1101,7 +1104,8 @@
 		/obj/item/holosign_creator/cyborg,
 		/obj/item/borg/cyborghug/peacekeeper,
 		/obj/item/megaphone,
-		/obj/item/borg/projectile_dampen)
+		/obj/item/borg/projectile_dampen,
+		/obj/item/gripper)
 	emag_modules = list(/obj/item/reagent_containers/borghypo/peace/hacked)
 	ratvar_modules = list(
 		/obj/item/clockwork/slab/cyborg/peacekeeper,
@@ -1263,7 +1267,8 @@
 		/obj/item/mop/cyborg,
 		/obj/item/lightreplacer/cyborg,
 		/obj/item/holosign_creator,
-		/obj/item/reagent_containers/spray/cyborg_drying)
+		/obj/item/reagent_containers/spray/cyborg_drying,
+		/obj/item/gripper)
 	emag_modules = list(/obj/item/reagent_containers/spray/cyborg_lube)
 	ratvar_modules = list(
 		/obj/item/clockwork/slab/cyborg/janitor,
@@ -1765,7 +1770,7 @@
 		/obj/item/gun/energy/kinetic_accelerator/cyborg,
 		/obj/item/gun/energy/plasmacutter/cyborg,
 		/obj/item/gps/cyborg,
-		/obj/item/gripper/mining,
+		/obj/item/gripper,
 		/obj/item/cyborg_clamp,
 		/obj/item/stack/marker_beacon/cyborg,
 		/obj/item/dest_tagger,
@@ -1988,7 +1993,8 @@
 		/obj/item/gun/ballistic/revolver/grenadelauncher/cyborg,
 		/obj/item/card/emag,
 		/obj/item/crowbar/cyborg,
-		/obj/item/pinpointer/syndicate_cyborg)
+		/obj/item/pinpointer/syndicate_cyborg,
+		/obj/item/gripper)
 
 	ratvar_modules = list(
 		/obj/item/clockwork/slab/cyborg/security,
@@ -2032,7 +2038,8 @@
 		/obj/item/pinpointer/syndicate_cyborg,
 		/obj/item/stack/medical/gauze/cyborg,
 		/obj/item/gun/medbeam,
-		/obj/item/organ_storage)
+		/obj/item/organ_storage,
+		/obj/item/gripper)
 	ratvar_modules = list(
 		/obj/item/clockwork/slab/cyborg/medical,
 		/obj/item/clockwork/weapon/ratvarian_spear)
@@ -2068,7 +2075,8 @@
 		/obj/item/dest_tagger/borg,
 		/obj/item/stack/cable_coil/cyborg,
 		/obj/item/pinpointer/syndicate_cyborg,
-		/obj/item/borg_chameleon)
+		/obj/item/borg_chameleon,
+		/obj/item/gripper)
 
 	ratvar_modules = list(
 	/obj/item/clockwork/slab/cyborg/engineer,
@@ -2138,7 +2146,8 @@
 		/obj/item/crowbar/cyborg,
 		/obj/item/melee/transforming/energy/sword/cyborg,
 		/obj/item/gun/energy/printer,
-		/obj/item/pinpointer/spider_cyborg)
+		/obj/item/pinpointer/spider_cyborg,
+		/obj/item/gripper)
 
 	cyborg_base_icon = "spider_sec"
 
@@ -2165,7 +2174,8 @@
 		/obj/item/stack/medical/gauze/cyborg,
 		/obj/item/gun/medbeam,
 		/obj/item/organ_storage,
-		/obj/item/pinpointer/spider_cyborg)
+		/obj/item/pinpointer/spider_cyborg,
+		/obj/item/gripper)
 
 	cyborg_base_icon = "spider_medical"
 
@@ -2196,6 +2206,7 @@
 		/obj/item/dest_tagger/borg,
 		/obj/item/stack/cable_coil/cyborg,
 		/obj/item/borg_chameleon,
-		/obj/item/pinpointer/spider_cyborg)
+		/obj/item/pinpointer/spider_cyborg,
+		/obj/item/gripper)
 
 	cyborg_base_icon = "spider_engi"
