@@ -57,7 +57,7 @@ CHECK_RANDOMIZER
 #AGGRESSIVE_CHANGELOG
 
 ## Uncomment to allow web client connections
-#ALLOW_WEBCLIENT
+ALLOW_WEBCLIENT
 
 ## Uncomment to restrict web client connections to byond members
 ## This makes for a nice pay gate to cut down on ban evading, as the webclient's cid system isn't that great

@@ -1,5 +1,5 @@
 ## Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
-LOBBY_COUNTDOWN 120
+LOBBY_COUNTDOWN 60
 
 ## Round End Time: This is the amount of time after the round ends that players have to murder death kill each other.
 ROUND_END_COUNTDOWN 90
@@ -139,14 +139,14 @@ ALLOW_AI_MULTICAM
 ## AWAY MISSIONS ###
 
 ## Uncomment to load one of the missions from awaymissionconfig.txt at roundstart.
-#ROUNDSTART_AWAY
+ROUNDSTART_AWAY
 
 ## Uncomment to load one of the virtual reality levels from vr_config at roundstart.
-#ROUNDSTART_VR
+ROUNDSTART_VR
 
 ## How long the delay is before the Away Mission gate opens. Default is half an hour.
 ## 600 is one minute.
-GATEWAY_DELAY 18000
+GATEWAY_DELAY 1200
 
 
 ## ACCESS ###
@@ -163,10 +163,10 @@ MINIMAL_ACCESS_THRESHOLD 20
 #JOBS_HAVE_MINIMAL_ACCESS
 
 ## Uncomment to give assistants maint access.
-#ASSISTANTS_HAVE_MAINT_ACCESS
+ASSISTANTS_HAVE_MAINT_ACCESS
 
 ## Uncoment to give security maint access. Note that if you dectivate JOBS_HAVE_MINIMAL_ACCESS security already gets maint from that.
-#SECURITY_HAS_MAINT_ACCESS
+SECURITY_HAS_MAINT_ACCESS
 
 ## Uncomment to give everyone maint access.
 #EVERYONE_HAS_MAINT_ACCESS
@@ -356,7 +356,7 @@ OVERFLOW_CAP -1
 
 ## Starlight for exterior walls and breaches. Uncomment for starlight!
 ## This is disabled by default to make testing quicker, should be enabled on production servers or testing servers messing with lighting
-#STARLIGHT
+STARLIGHT
 
 ## Uncomment to bring back old grey suit assistants instead of the now default rainbow colored assistants.
 #GREY_ASSISTANTS
@@ -403,7 +403,7 @@ REACTIONARY_EXPLOSIONS
 ## Default (5, 10, 20) (recommended if you enable REACTIONARY_EXPLOSIONS above)
 BOMBCAP 20
 ## LagHell (7, 14, 28)
-#BOMBCAP 28
+BOMBCAP 32
 
 
 ## Lavaland "Budget"
@@ -434,13 +434,13 @@ ARRIVALS_SHUTTLE_DOCK_WINDOW 55
 
 ## How many wirechewing rodents you want to spawn on exposed maintenane wires at the start of the round. You may wish to set this to 0 if you're testing powernets.
 
-MICE_ROUNDSTART 10
+MICE_ROUNDSTART 5
 
 ## If the percentage of players alive (doesn't count conversions) drops below this threshold the emergency shuttle will be forcefully called (provided it can be)
 #EMERGENCY_SHUTTLE_AUTOCALL_THRESHOLD 0.2
 
 ## Determines if players are allowed to print integrated circuits, uncomment to allow.
-#IC_PRINTING
+IC_PRINTING
 
 ## Uncomment to allow roundstart quirk selection in the character setup menu.
 ## This used to be named traits, hence the config name, but it handles quirks, not the other kind of trait!
@@ -450,7 +450,7 @@ ROUNDSTART_TRAITS
 #DISABLE_HUMAN_MOOD
 
 ## Enable night shifts ##
-#ENABLE_NIGHT_SHIFTS
+ENABLE_NIGHT_SHIFTS
 
 ## Makes night shifts only affect in-code public-flagged areas. Nightshifts hit the level as defined in __DEFINES/misc.dm that this is set to and anything below. ##
 NIGHT_SHIFT_PUBLIC_AREAS_ONLY 1
@@ -480,29 +480,29 @@ ECONOMY
 #DISABLE_STAMBUFFER
 
 #Replaces standard extended/secret dichotomy with extended and calm/chaotic votes for dynamic.
-#DYNAMIC_VOTING
+DYNAMIC_VOTING
 
 ## Uncomment to enable dynamic ruleset config file.
 DYNAMIC_CONFIG_ENABLED
 
 ## Choose which Engine to start the round with. Weight is after the comma. Setting the weight to 0 removes the engine from rotation.
-BOX_RANDOM_ENGINE Box SM,3
-BOX_RANDOM_ENGINE Box Tesla,3
-BOX_RANDOM_ENGINE Box Singulo,2
+BOX_RANDOM_ENGINE Box SM,1
+BOX_RANDOM_ENGINE Box Tesla,0
+BOX_RANDOM_ENGINE Box Singulo,0
 BOX_RANDOM_ENGINE Box SM 1x3,0
 BOX_RANDOM_ENGINE Box SM 5x5,0
 BOX_RANDOM_ENGINE Box SM 3x,0
-BOX_RANDOM_ENGINE Box TEG,2
+BOX_RANDOM_ENGINE Box TEG,3
 BOX_RANDOM_ENGINE Box Empty,0
 BOX_RANDOM_ENGINE Box Antimatter,0
 BOX_RANDOM_ENGINE Box P.A.C.M.A.N,0
 BOX_RANDOM_ENGINE Box RBMK,0
-BOX_RANDOM_ENGINE Box DIY,2
+BOX_RANDOM_ENGINE Box DIY,3
 BOX_RANDOM_ENGINE Box DIY_SM,1
 
 
 ## Whether the suicide verb is allowed.
-# SUICIDE_ALLOWED
+ SUICIDE_ALLOWED
 
 ## Allows players to set a hexadecimal color of their choice as skin tone, on top of the standard ones.
 ALLOW_CUSTOM_SKINTONES

@@ -9,13 +9,13 @@
 WIKIURL http://splurtstation.sytes.net/wiki/index.php
 
 ## Wiki address of upstream
-WIKIURLTG http://www.tgstation13.org/wiki
+#WIKIURLTG http://www.tgstation13.org/wiki
 
 ## Rules address
 # RULESURL https://citadel-station.net/wikimain/index.php?title=Rules_-_Main
 
 ## Github address
-# GITHUBURL https://github.com/Citadel-Station-13/Citadel-Station-13
+ GITHUBURL https://github.com/ARTHURMURILO/Shikeira-station
 
 ## Round specific stats address
 ## Link to round specific parsed logs; IE statbus. It is appended with the RoundID automatically by ticker/Reboot()
